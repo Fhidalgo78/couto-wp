@@ -4,6 +4,8 @@ get_header();
 ?>
 <section>
 
+    <!-- carrusel pantallas pequeñas- medianas -->
+
     <div class="small-carousel">
         <div class="owl-carousel owl-theme" id="small-carousel">
             <div>
@@ -23,12 +25,32 @@ get_header();
 
     </div>
 
-
+    <!-- carrusel pantallas grandes -->
     <div class="desktop-carousel">
         <div class="owl-carousel owl-theme" id="desktop-carousel">
-            <div class="desktop-image">
+            <div class="desktop-image-wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-homeLG.png"
-                    alt="Girl with skincare" class="">
+                    alt="Girl with skincare" class="banner-home-image">
+                <div class="banner-text">
+                    <h4>Lorem ipsum</h4>
+                    <h3>Flash sale active</h3>
+                </div>
+            </div>
+            <div class="desktop-image-wrapper">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-homeLG.png"
+                    alt="Girl with skincare" class="banner-home-image">
+                <div class="banner-text">
+                    <h4>Lorem ipsum</h4>
+                    <h3>Flash sale active</h3>
+                </div>
+            </div>
+            <div class="desktop-image-wrapper">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-homeLG.png"
+                    alt="Girl with skincare" class="banner-home-image">
+                <div class="banner-text">
+                    <h4>Lorem ipsum</h4>
+                    <h3>Flash sale active</h3>
+                </div>
             </div>
         </div>
     </div>

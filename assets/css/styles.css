@@ -2,6 +2,7 @@
 .desktop-carousel {
     display: none;
 }
+
 @media screen and (min-width: 1000px) {
     .desktop-carousel {
         display: block;
@@ -38,6 +39,40 @@
     }
 }
 
+.desktop-carousel {}
+
+.desktop-image-wrapper {
+    position: relative;
+    height: 350px;
+}
+
+.banner-home-image {
+    height: 350px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.banner-text>h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.banner-text>h3 {
+    color: #000000;
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 1.1px;
+    width: 181px;
+}
 
 @font-face {
     font-family: 'Roboto Regular';
