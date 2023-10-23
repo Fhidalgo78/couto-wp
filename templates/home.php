@@ -60,7 +60,7 @@ get_header();
 
 
     <!-- productos pantallas pequeñas y medianas -->
-    <div class="container mt-3" id="categories-small">
+    <div class="container mt-5" id="categories-small">
         <div class="row">
             <div class="col-6 col-md-3">
                 <div class="contenedor"
@@ -134,7 +134,7 @@ get_header();
 
 
     <div class="container">
-        <div class="row justify-content-center mb-2">
+        <div class="row justify-content-center mb-2 mt-3">
             <h3>
                 All our brands
             </h3>
