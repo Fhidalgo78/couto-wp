@@ -7,7 +7,7 @@ get_header();
     <!-- carrusel pantallas pequeñas- medianas -->
 
     <div class="small-carousel">
-        <div class="owl-carousel owl-theme" id="small-carousel">
+        <div class="owl-carousel-one owl-carousel owl-theme" id="banner-carousel">
             <div>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-home.png"
                     alt="Girl with skincare" class="">
@@ -27,7 +27,7 @@ get_header();
 
     <!-- carrusel pantallas grandes -->
     <div class="desktop-carousel">
-        <div class="owl-carousel owl-theme" id="desktop-carousel">
+        <div class="owl-carousel-one owl-carousel owl-theme" id="banner-carousel">
             <div class="desktop-image-wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-homeLG.png"
                     alt="Girl with skincare" class="banner-home-image">
@@ -57,10 +57,10 @@ get_header();
 
 
 
-    <div class="container mt-3" id="categories-div">
+    <!-- productos pantallas pequeñas y medianas -->
+    <div class="container mt-3" id="categories-small">
         <div class="row">
             <div class="col-6 col-md-3">
-                <!-- Para pantallas pequeñas, medianas, grandes y extra grandes -->
                 <div class="contenedor"
                     style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/cart-skincare.png) ">
                     <h4 class="white-text">SKINCARE</h4>
@@ -68,7 +68,6 @@ get_header();
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <!-- Para pantallas pequeñas, medianas, grandes y extra grandes -->
                 <div class="contenedor"
                     style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/cart-sun-protection.png)">
                     <h4 class="white-text">sun protection</h4>
@@ -76,7 +75,6 @@ get_header();
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <!-- Para pantallas pequeñas, medianas, grandes y extra grandes -->
                 <div class="contenedor"
                     style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/cart-hair.png)">
                     <h4 class="white-text">Hair</h4>
@@ -84,7 +82,6 @@ get_header();
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <!-- Para pantallas pequeñas, medianas, grandes y extra grandes -->
                 <div class="contenedor"
                     style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/cart-makeup.png)">
                     <h4 class="white-text">Makeup</h4>
@@ -100,13 +97,50 @@ get_header();
         </div>
     </div>
 
-    <div class="container mt-3" id="brands-div">
+    <!-- productos pantallas grandes y extra grandes -->
+
+    <div class="container mt-5" id="categories-desktop">
+        <div class="owl-carousel-two owl-carousel owl-theme" id="desk-carousel">
+            <div class="contenedor"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/cart-skincare.png) ">
+                <h4 class="white-text">Makeup</h4>
+                <button class="black-backgound simple-button">View products</button>
+            </div>
+            <div class="contenedor"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/cart-sun-protection.png)">
+                <h4 class="white-text">Makeup</h4>
+                <button class="black-backgound simple-button">View products</button>
+            </div>
+            <div class="contenedor"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/cart-hair.png)">
+                <h4 class="white-text">Makeup</h4>
+                <button class="black-backgound simple-button">View products</button>
+            </div>
+            <div class="contenedor"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/cart-makeup.png)">
+                <h4 class="white-text">Makeup</h4>
+                <button class="black-backgound simple-button">View products</button>
+            </div>
+            <div class="contenedor"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/cart-makeup.png)">
+                <h4 class="white-text">Makeup</h4>
+                <button class="black-backgound simple-button">View products</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
         <div class="row justify-content-center mb-2">
             <h3>
                 All our brands
             </h3>
         </div>
+    </div>
 
+    <!-- marcas pantallas pequeñas-->
+    <div class="container mt-3" id="brands-small">
         <div class="row">
             <div class="col-6 col-md-3">
                 <!-- Para pantallas pequeñas, medianas, grandes y extra grandes -->
@@ -147,7 +181,39 @@ get_header();
         </div>
     </div>
 
-    <div class="container-fluid">
+
+    <!-- marcas pantallas grandes y extra grandes -->
+    <div class="container mt-3" id="brands-desktop">
+        <div class="owl-carousel-two owl-carousel owl-theme" id="desk-carousel">
+            <div class="contenedor"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/banner-alastin.png) ">
+                <h4 class="white-text">Makeup</h4>
+                <button class="black-backgound simple-button">View products</button>
+            </div>
+            <div class="contenedor"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/banner-avene.png)">
+                <h4 class="white-text">Makeup</h4>
+                <button class="black-backgound simple-button">View products</button>
+            </div>
+            <div class="contenedor"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/banner-color.png)">
+                <h4 class="white-text">Makeup</h4>
+                <button class="black-backgound simple-button">View products</button>
+            </div>
+            <div class="contenedor"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/banner-glytone.png)">
+                <h4 class="white-text">Makeup</h4>
+                <button class="black-backgound simple-button">View products</button>
+            </div>
+            <div class="contenedor"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/banner-avene.png)">
+                <h4 class="white-text">Makeup</h4>
+                <button class="black-backgound simple-button">View products</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid flash-sale-wrapper">
         <div class="row">
 
             <div class="flash-sale-contenedor"
@@ -193,7 +259,8 @@ get_header();
     </div>
 
 
-    <div class="container-fluid ">
+    <!-- sales para pantallas pequeñas y medianas -->
+    <div class="container-fluid small-sales-wrapper">
         <div class="row gray-bg">
             <!-- <div class="col-12"> -->
             <div class="container " id="brands-div">
@@ -303,7 +370,103 @@ get_header();
         </div>
     </div>
 
+    <!-- sales para antallas grandes -->
+    <div class="container-fluid big-sales-wrapper">
+        <div class="row gray-bg">
+            <!-- <div class="col-12"> -->
+            <div class="container " id="brands-div">
+                <div class="row justify-content-center mb-2">
+                    <h3 class="mt-3">
+                        SALE
+                    </h3>
+                </div>
 
+                <div class="owl-carousel-two owl-carousel owl-theme" id="desk-carousel">
+                    <div class="product-wrapper">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-sale1.png"
+                            alt="product1" class="image-prod">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrito.png" alt="carrito"
+                            class="carrito-image">
+                        <div class="sale-text-wrapper">
+                            <h5>
+                                LOREM IPSUM
+                            </h5>
+
+                            <p>LOREM IPSUM LOREM IPSUM</p>
+
+                            <div class="price-wrapper">
+                                <p>$28.80</p>
+                                <p>$36.00</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="product-wrapper">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-sale2.png"
+                            alt="product2" class="image-prod">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrito.png" alt="carrito"
+                            class="carrito-image">
+                        <div class="sale-text-wrapper">
+                            <h5>
+                                LOREM IPSUM
+                            </h5>
+
+                            <p>LOREM IPSUM LOREM IPSUM</p>
+
+                            <div class="price-wrapper">
+                                <p>$28.80</p>
+                                <p>$36.00</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="product-wrapper">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-sale3.png"
+                            alt="product2" class="image-prod">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrito.png" alt="carrito"
+                            class="carrito-image">
+                        <div class="sale-text-wrapper">
+                            <h5>
+                                LOREM IPSUM
+                            </h5>
+
+                            <p>LOREM IPSUM LOREM IPSUM</p>
+
+                            <div class="price-wrapper">
+                                <p>$28.80</p>
+                                <p>$36.00</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="product-wrapper">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-sale4.png"
+                            alt="product4" class="image-prod">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/carrito.png" alt="carrito"
+                            class="carrito-image">
+                        <div class="sale-text-wrapper">
+                            <h5>
+                                LOREM IPSUM
+                            </h5>
+
+                            <p>LOREM IPSUM LOREM IPSUM</p>
+
+                            <div class="price-wrapper">
+                                <p>$28.80</p>
+                                <p>$36.00</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
 
 
 </section>
