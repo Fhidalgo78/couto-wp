@@ -39,6 +39,9 @@
     .small-sales-wrapper {
         display: none;
     }
+    .sale-text-wrapper {
+        margin-top: 30px;
+    }
 }
 
 /* Para pantallas medianas (600px - 999px) */
@@ -62,6 +65,9 @@
     .contenedor {
         height: 190px;
     }
+    .big-sales-wrapper{
+        display: none;
+    }
 }
 
 /* Para pantallas pequeñas (599px o menos) */
@@ -84,6 +90,9 @@
 
     .contenedor {
         height: 190px;
+    }
+    .big-sales-wrapper{
+        display: none;
     }
 }
 
@@ -130,7 +139,10 @@
 
 .desktop-image-wrapper {
     position: relative;
-    height: 350px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .banner-home-image {

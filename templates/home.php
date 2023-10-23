@@ -28,30 +28,32 @@ get_header();
     <!-- carrusel pantallas grandes -->
     <div class="desktop-carousel">
         <div class="owl-carousel-one owl-carousel owl-theme" id="banner-carousel">
-            <div class="desktop-image-wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-homeLG.png"
-                    alt="Girl with skincare" class="banner-home-image">
+
+            <section class="desktop-image-wrapper"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/banner-homeLG.png">
                 <div class="banner-text">
                     <h4>Lorem ipsum</h4>
                     <h3>Flash sale active</h3>
                 </div>
-            </div>
-            <div class="desktop-image-wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-homeLG.png"
-                    alt="Girl with skincare" class="banner-home-image">
+            </section>
+
+            <section class="desktop-image-wrapper"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/banner-homeLG.png">
                 <div class="banner-text">
                     <h4>Lorem ipsum</h4>
                     <h3>Flash sale active</h3>
                 </div>
-            </div>
-            <div class="desktop-image-wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/banner-homeLG.png"
-                    alt="Girl with skincare" class="banner-home-image">
+            </section>
+
+            <section class="desktop-image-wrapper"
+                style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/banner-homeLG.png">
                 <div class="banner-text">
                     <h4>Lorem ipsum</h4>
                     <h3>Flash sale active</h3>
                 </div>
-            </div>
+            </section>
+
+
         </div>
     </div>
 
